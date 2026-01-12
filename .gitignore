@@ -10,30 +10,11 @@
 
 
 # tree-sitter
-## Rust artifacts
-target/
-Cargo.lock
 
-## Node artifacts
-build/
-prebuilds/
-node_modules/
-package-lock.json
 
-## Swift artifacts
-.build/
-Package.resolved
+## Artifacts
 
-## Go artifacts
-_obj/
-
-## Python artifacts
-.venv/
-dist/
-*.egg-info
-*.whl
-
-## C artifacts
+### C
 *.a
 *.so
 *.so.*
@@ -43,20 +24,43 @@ dist/
 *.exp
 *.lib
 
-## Zig artifacts
+### Go
+_obj/
+
+### Node
+build/
+prebuilds/
+node_modules/
+package-lock.json
+
+### Python
+.venv/
+dist/
+*.egg-info
+*.whl
+
+### Rust
+target/
+Cargo.lock
+
+### Swift
+.build/
+Package.resolved
+
+### Zig
 .zig-cache/
 zig-cache/
 zig-out/
 
-## Example dirs
+### Example dirs
 /examples/*/
 
-## Grammar volatiles
+### Grammar volatiles
 *.wasm
 *.obj
 *.o
 
-## Archives
+### Archives
 *.tar.gz
 *.tgz
 *.zip
