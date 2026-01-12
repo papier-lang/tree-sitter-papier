@@ -1,0 +1,38 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "papier",
+      "camelcase": "Papier",
+      "title": "Papier",
+      "scope": "source.papier",
+      "file-types": ["pp", "papier"],
+      "injection-regex": "^papier$",
+      "class-name": "TreeSitterPapier"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "A strict, simple recursive document language",
+    "authors": [
+      {
+        "name": "Dietrich Daroch",
+        "email": "Dietrich@Daroch.me",
+        "url": "https://dietrich.daroch.me"
+      }
+    ],
+    "links": {
+      "repository": "https://papier-lang.github.io/papier"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": false,
+    "node": false,
+    "python": false,
+    "rust": false,
+    "swift": false,
+    "zig": false
+  }
+}
