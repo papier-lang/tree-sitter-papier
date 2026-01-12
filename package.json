@@ -7,7 +7,7 @@
   "author": {
     "name": "Dietrich Daroch",
     "email": "Dietrich@Daroch.me",
-    "url": "https://dietrich.daroch.me/"
+    "url": "https://dietrich.daroch.me"
   },
   "main": "bindings/node",
   "types": "bindings/node",

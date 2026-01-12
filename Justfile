@@ -13,6 +13,7 @@ report:
 fmt:
 	nixfmt --check $(find . -name '*.nix')
 	prettier --check --write $(find . -name '*.json')
+	js-beautify --editorconfig --replace $(find . -name '*.js')
 
 parse FILE:
 	tree-sitter parse --rebuild --cst {{FILE}}
