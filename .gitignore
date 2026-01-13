@@ -9,6 +9,9 @@
 !.gitignore
 
 
+# JS
+!.prettierrc.json
+
 # tree-sitter
 
 !.envrc.example
